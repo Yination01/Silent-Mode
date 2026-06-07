@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "757343042091",
+    "project_id": "silentmode-1c193",
+    "storage_bucket": "silentmode-1c193.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757343042091:android:98536bbc45b1a858f0086e",
+        "android_client_info": {
+          "package_name": "com.silentmode"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdnC8LPELwRdDjA3XikXfkhoz3nMwWKsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
