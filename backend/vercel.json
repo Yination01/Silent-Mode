@@ -1,0 +1,23 @@
+{
+  "functions": {
+    "api/**/*.js": { "memory": 1024, "maxDuration": 30 }
+  },
+  "env": {
+    "GROQ_API_KEY": "@groq-api-key",
+    "GEMINI_API_KEY": "@gemini-api-key",
+    "HF_API_KEY": "@huggingface-api-key",
+    "FIREBASE_SERVICE_ACCOUNT": "@firebase-service-account"
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+      ]
+    }
+  ]
+}
