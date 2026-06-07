@@ -1,11 +1,8 @@
-@"
 node_modules/
-android/app/build/
-ios/build/
-ios/Pods/
+package-lock.json
+backend/node_modules/
+backend/package-lock.json
+backend/.vercel/
+silentmode-*.json
 .env
-*.jks
-*.p8
-*.p12
-*.key
-"@ | Set-Content .gitignore
+android/app/google-services.json
