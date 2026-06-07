@@ -1,0 +1,11 @@
+@"
+node_modules/
+android/app/build/
+ios/build/
+ios/Pods/
+.env
+*.jks
+*.p8
+*.p12
+*.key
+"@ | Set-Content .gitignore
